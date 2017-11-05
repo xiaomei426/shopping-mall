@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*CSS Document*/
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }  /*让这些的标签内外边距都是0*/
+fieldset, img {  border:none;  }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;  /*  */ }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+table { border-collapse:collapse; }
+img{vertical-align: middle;border:0 none;}
+body { color:#515151;  font:14px '微软雅黑'; /* 设置全局的文字 颜色 字号  字体  */     /* 测试用的高度 */ }
+a{color:#515151; text-decoration:none; }
+a:hover{ color:#f00; }
+
+.wrap{margin: 0 auto;color: #444444;}
+.header{height: 100px;background: #FFFFFF;margin: 0 auto;}
+.headbox{min-width: 1000px;margin: 0 auto;width: 1000px;}
+.logo{float: left;margin-top: 25px;display: block;}
+.logo strong{float: left;}
+.logo span{float: left;width: 1px;height: 45px;background: #CCCCCC;margin: 0 20px;display: inline-block;}
+.logo em{float: left;font-style: normal;line-height: 45px;font-size: 24px;font-weight: normal;font-family: arial;}
+.back{float: right;margin-top: 56px;}
+.home{margin-right: 30px;color: #333333;}
+.register{color: #D7000F;}
+.login_main{background: #FF4A3F;width: 100%;height: 468px;position: relative;}
+.main_box{min-width: 1000px;margin: 0 auto;width: 1000px;height: 468px;overflow: hidden;position: relative;left: 50%;margin-left: -500px;}
+.login-box{background: #FFFFFF;width: 320px;height: 358px;position: absolute;top: 40px;right: 40px;padding: 30px 0 0 30px;}
+.login-box h2{font-weight: normal;margin-bottom: 40px;font-size: 20px;}
+.login{position: relative;margin-bottom: 20px;min-height: 36px;}
+.login span{position: absolute;background-color: #F3F3F3;width: 41px;height: 40px;border-right: 1px solid #CCCCCC;top: 1px;left: 1px;}
+.username{background: url(../img/username.png) no-repeat center center;}
+.password{background: url(../img/password.png) no-repeat center center;}
+.login input{width: 238px;height: 40px;padding-left: 50px;border: 1px solid #CCCCCC;font-size: 14px;}
+.auto-login{margin: 30px 0 20px 0;width: 290px;display: block;height: 15px;}
+.auto-login label{float: left;cursor: pointer;}
+.auto-login a{float: right;}
+.login-box button{width: 288px;height: 42px;background: #122A45;border: 1px solid #122A45;color: #FEDB6A;cursor: pointer;font-size: 16px;}
+.footer3_con{text-align: center;font-size: 13px;padding-top: 60px;width: 1200px;position: relative;height: 220px;margin: 0 auto;}
+.footer3_con a:hover{color: #F22613;}
+.footernav{padding-bottom: 10px;}
+.footernav p a{margin: 0 6px;color: #333333;line-height: 18px;vertical-align: middle;display: inline-block;}
+.footernav span{background: url(../img/navline.png) no-repeat center center;width: 1px;height: 18px;display: inline-block;vertical-align: middle;}
+.footernav span:last-child{background: none;}
+.copyright a{color: #333333;}
+.copyright p{color: #878787;margin: 15px 0;line-height: 22px;}
+.footer_logolist{padding-bottom: 20px;height: 41px;}
+.footer_logolist p a{display: inline-block;margin: 0 6px;}
+.footer_logolist p a img{width: 103px;height: 32px;vertical-align: middle;}

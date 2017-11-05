@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*CSS Document*/
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }  /*让这些的标签内外边距都是0*/
+fieldset, img {  border:none;  }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;  /*  */ }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+table { border-collapse:collapse; }
+img{vertical-align: middle;border:0 none;}
+body { color:#515151;  font:14px '微软雅黑'; /* 设置全局的文字 颜色 字号  字体  */     /* 测试用的高度 */ }
+a{color:#515151; text-decoration:none; }
+a:hover{ color:#f00; }
+
+.wrap{margin: 0 auto;color: #444444;}
+.header{height: 100px;background: #FFFFFF;margin: 0 auto;border-bottom: 1px solid #EBEBEB;display: block;}
+.headbox{min-width: 1000px;margin: 0 auto;width: 1000px;display: block;}
+.logo{float: left;margin-top: 25px;display: block;}
+.logo strong{float: left;}
+.logo span{float: left;width: 1px;height: 45px;background: #CCCCCC;margin: 0 20px;display: inline-block;}
+.logo em{float: left;font-style: normal;line-height: 45px;font-size: 24px;font-weight: normal;font-family: arial;}
+.back{float: right;margin-top: 56px;display: block;}
+.home{margin-right: 30px;color: #333333;}
+.register{color: #D7000F;}
+.register_main{width: 100%;height: 468px;position: relative;background: #FFFFFF;}
+.register-box{min-width: 1000px;margin: 0 auto;width: 1000px;display: block;height: 468px;position: relative;left: 50%;margin-left: -500px;overflow: hidden;padding: 40px 0 0 168px;}
+.row_item_input{margin-bottom: 20px;height: 42px;width: 100%;line-height: 42px;}
+.row_item_input span{float: left;display: inline-block;margin-right: 10px;width: 75px;height: 42px;line-height: 42px;text-align: right;}
+.row_item_input input{float: left;height: 40px;width: 278px;padding-left: 10px;border: 1px solid #CCCCCC;}
+.row_item_input p{float: left;padding-left: 22px;line-height: 42px;height: 42px;}
+.row_item_input .code{width: 76px;}
+.row_item_input button{float: left;width: 190px;height: 42px;background: #122A45;border: 1px solid #122A45;color: #FEDB6A;cursor: pointer;font-size: 16px;margin-left: 12px;}
+.row_item{margin: 26px 0 0 85px;display: block;}
+.row_item button{background: #122A45;border: 1px solid #122A45;color: #FEDB6A;cursor: pointer;font-size: 16px;height: 42px;width: 290px;}
+.footer3_con{text-align: center;font-size: 13px;padding-top: 20px;width: 1200px;position: relative;height: 60px;margin: 0 auto;}
+.footernav{padding-bottom: 10px;}
+.footernav p a{margin: 0 6px;color: #333333;line-height: 18px;vertical-align: middle;display: inline-block;}
+.footernav span{background: url(../img/navline.png) no-repeat center center;width: 1px;height: 18px;display: inline-block;vertical-align: middle;}
+.footernav span:last-child{background: none;}

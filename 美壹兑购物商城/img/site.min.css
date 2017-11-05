@@ -1,0 +1,86 @@
+/* CSS Document By Aring QQ:838278506 http://www.divsz.com/ */
+@import url("all.css");
+/**** main ****/
+body{ background:#f5f5f5;}
+.charge{ width:1198px; border:1px solid #d8d8d8; margin:20px auto; background:#e1f2fe; position:relative;font-size: 14px;}
+.charge .sub{ width:297px; position:absolute; left:0; top:0;}
+.charge .main_c{ width:900px; min-height:600px; border-left:1px solid #d8d8d8; margin-left:297px; background:#ffffff;}
+.main-content{display: none;}
+.main-content.hover{display: block;}
+.main_c.over{ background:#eefce6;}
+.sub li{ width:297px; height:90px; font-size:16px; color:#222222; line-height:90px; border-bottom:1px solid #d8d8d8; cursor:pointer;}
+.sub li img{ vertical-align:middle; margin:0 20px 4px 40px;}
+.sub li.last{ border-bottom:none;}
+.sub li.hover{ border-right:1px solid #ffffff; background:#ffffff;}
+.sub li.over{ border-right:1px solid #eefce6; background:#eefce6;}
+.tel_t{ width:660px; height:42px; font-size:14px; color:#23ac38; line-height:42px; border-bottom:1px solid #ebebeb; padding-top:30px; margin:0 auto;}
+.tel_t img{ vertical-align:middle; margin:0 4px 2px 0;}
+.tel_c{ color:#333333; padding:24px 0 0 120px;}
+.tel_c th{ font-size:14px; color:#222222; line-height:76px;}
+.tel_c td input.txt{ width:342px; height:30px; font-size:14px;  line-height:30px; vertical-align:middle; border:1px solid #c9c9ca; padding-left:8px;text-align: left;}
+.tel_c td font{ font-size:12px; color:#d7000f;}
+.tel_c td span{ font-size:18px; color:#d7000f; padding-right:10px;}
+.tel_c td .errorTip{display:none; margin-bottom: -22px;}
+.tel_c td .errorTip span{font: 12px/150% Arial,Verdana,"宋体";	}
+.tel_c td img{ vertical-align:middle; margin:0 6px 2px 10px;}
+.tel_c td h5{ font-size:24px; color:#d7000f;}
+.tel_c td ul{ height:32px;}
+.tel_c td li{ float:left; width:68px; height:30px; text-align:center; line-height:30px; border:1px solid #c9c9ca; margin-right:24px;margin-top: 5px; display:inline; cursor:pointer;}
+.tel_c td li.hover{ border:1px solid #c30d23; background:url(../images/tel_li.png) no-repeat center center;}
+.tel_c td h4{ height:32px; padding:36px 0;}
+.tel_c td h4 input.btn{ width:96px; height:32px; font-size:16px; color:#ffffff; vertical-align:bottom; border:none; border-radius:3px; margin-right:42px; background:#e70c1b; cursor:pointer;}
+.tel_c td h4 a{ font-size:12px; color:#d7000f; text-decoration:underline;}
+.tel_c td h4 a:hover{ color:#d7000f;}
+.tel_c td dl{ display:inline-block; width:310px; height:30px; color:#666666; line-height:30px; vertical-align:middle; border:1px solid #d40000; padding:0 20px;}
+.tel_c td dt{ float:left; font-size:18px; font-weight:bold;}
+.tel_c td dd{ float:right; font-size:16px;}
+.sale{ color:#222222; padding:24px 0 0 120px;}
+.sale h2{ font-size:24px; color:#84c260; font-weight:bold; line-height:110px; padding-bottom:12px;}
+.sale h2 img{ vertical-align:middle; margin:0 18px 6px 88px;}
+.sale h3{ font-size:20px; line-height:40px;}
+.sale p{ font-size:14px; line-height:32px;}
+.sale p span{ color:#d7000f;}
+.sale p a{ color:#d7000f; text-decoration:underline;}
+.sale p a:hover{ color:#d7000f;}
+.sale h4{ font-size:14px; color:#666666; line-height:50px; padding-bottom:10px;}
+.pay_li{ width:780; height:54px; line-height:54px;}
+.pay_li dt{ float:left; width:96px; font-size:14px; color:#222222;}
+.pay_li dd{ float:left; width:684px;}
+.pay_li dd div{ margin-left: 31px;display:inline-block; width:310px; height:30px; color:#666666; line-height:30px; vertical-align:middle; border:1px solid #d40000; padding:0 20px;}
+.pay_li dd h6{ float:left; font-size:18px; font-weight:bold;}
+.pay_li dd p{ float:right; font-size:16px;}
+.pay_li dd font{ font-size:12px; color:#d7000f;}
+.pay_li dd span{ font-size:24px; color:#d7000f;}
+.pay_btn{ padding:0 96px;}
+.pay_btn input{ width:96px; height:32px; font-size:16px; color:#ffffff; border:none; border-radius:3px; background:#e70c1b;}
+.bank{ padding-bottom:24px;}
+.bank h3{ font-size:14px; color:#222222; line-height:54px; padding:10px 0 6px;}
+.bank dl{ width:698px; height:36px; color:#333333; line-height:36px; border:1px solid #d8d8d8; border-radius:3px; margin:0 12px 10px; background:#fffeec;}
+.bank dt{ float:left; width:130px; font-size:14px;}
+.bank dt input{ width:14px; height:14px; vertical-align:middle; margin:0 10px 2px;}
+.bank dd{ float:left; width:568px; font-size:12px;}
+.bank_b{ width:692px; height:209px; padding-top:31px; margin:0 16px; position:relative;}
+.bank_t{ width:632px; height:32px; padding:0 30px; position:absolute; left:0; top:0;}
+.bank_t li{ float:left; width:106px; height:30px; font-size:12px; color:#333333; text-align:center; line-height:30px; border:1px solid #d8d8d8; border-radius:3px 3px 0 0; margin-left:10px; display:inline; background:#eeeeee; cursor:pointer;}
+.bank_t li.hover{ color:#222222; border-bottom:1px solid #ffffff; background:#ffffff;}
+.bank_c{ width:632px; height:180px; border-top:1px solid #d8d8d8; border-bottom:2px solid #d8d8d8; padding:12px 30px 14px;}
+.bank_c li{ float:left; width:136px; height:38px; border:1px solid #ebebeb; margin:10px; display:inline;}
+
+.pop{ display:none; width:100%; height:100%; background:rgba(0,0,0,0.3); cursor:pointer; position:absolute; left:0; top:0; z-index:10;}
+.pop_c{ display:none; width:694px; height:306px; color:#333333; padding:12px 0 0 34px; margin-left:-215px; background:#ffffff; position:absolute; left:50%; top:180px; z-index:20;}
+.pop_c th{ font-size:14px; color:#222222; line-height:76px;}
+.pop_c td input.txt{ width:342px; height:30px; font-size:14px; color:#c9c9ca; line-height:30px; vertical-align:middle; border:1px solid #c9c9ca; padding-left:8px;}
+.pop_c td font{ font-size:12px; color:#d7000f;}
+.pop_c td span{ font-size:24px; color:#d7000f; vertical-align:middle; padding-right:30px;}
+.pop_c td img{ vertical-align:middle; margin:0 6px 2px 10px;}
+.pop_c td h4{ height:32px; padding:6px 0;}
+.pop_c td h4 input.btn{ width:96px; height:32px; font-size:16px; color:#ffffff; vertical-align:bottom; border:none; border-radius:3px; margin-right:42px; background:#e70c1b; cursor:pointer;}
+.pop_c td h4 a{ font-size:12px; color:#d7000f; text-decoration:underline;}
+.pop_c td h4 a:hover{ color:#d7000f;}
+.pop_c td dl{ display:inline-block; width:310px; height:30px; color:#666666; line-height:30px; vertical-align:middle; border:1px solid #d8d8d8; padding:0 20px;}
+.pop_c td dt{ float:left; font-size:18px; font-weight:bold;}
+.pop_c td dd{ float:right; font-size:16px;}
+.oil-list-ul li{margin-top:5px;}
+.no_serivce {line-height: 600px;height: 600px;text-align: center;font-size: 24px;font-weight: bold;color: #DA1523;}
+.charge-tips,.charge-tips:hover{color:#f80;font-size:15px;}
+
